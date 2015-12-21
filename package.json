@@ -1,5 +1,5 @@
 {
-  "name": "tcomb",
+  "name": "tcomb-form-templates-bootstrap",
   "version": "0.0.1",
   "description": "Bootstrap templates for tcomb-form",
   "main": "lib/index.js",
