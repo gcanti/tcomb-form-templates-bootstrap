@@ -24,7 +24,7 @@ function getInputGroupButton(button) {
 }
 
 function getInputGroup(children) {
-  return React.createElement.apply(null, ['div', { className: 'input-group' }.concat(children)])
+  return React.createElement.apply(null, ['div', { className: 'input-group' }].concat(children))
 }
 
 function getAddon(addon) {
