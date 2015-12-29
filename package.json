@@ -41,7 +41,7 @@
     "karma-firefox-launcher": "0.1.7",
     "karma-tap": "1.0.3",
     "karma-webpack": "1.7.0",
-    "react-vdom": "0.6.1",
+    "react-vdom": "^0.6.2",
     "tape": "4.4.0",
     "webpack": "1.12.9"
   },
