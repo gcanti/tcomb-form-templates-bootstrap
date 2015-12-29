@@ -7,7 +7,9 @@
     "lib"
   ],
   "scripts": {
-    "lint": "eslint src",
+    "lint": "eslint src test",
+    "test": "karma start",
+    "test:node": "babel-node test",
     "build": "rm -rf lib && mkdir lib && babel --loose --stage 0 --out-dir lib src"
   },
   "repository": {
@@ -26,11 +28,22 @@
     "tcomb": "^2.5.0"
   },
   "devDependencies": {
-    "babel": "^5.8.34",
-    "babel-eslint": "^4.1.5",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^1.0.0",
-    "eslint-plugin-react": "^3.10.0"
+    "babel": "5.8.34",
+    "babel-eslint": "4.1.5",
+    "babel-loader": "5.4.0",
+    "eslint": "1.10.3",
+    "eslint-config-airbnb": "1.0.0",
+    "eslint-plugin-react": "3.10.0",
+    "isparta-loader": "1.0.0",
+    "karma": "0.13.16",
+    "karma-chrome-launcher": "0.2.2",
+    "karma-coverage": "0.5.3",
+    "karma-firefox-launcher": "0.1.7",
+    "karma-tap": "1.0.3",
+    "karma-webpack": "1.7.0",
+    "react-vdom": "0.6.1",
+    "tape": "4.4.0",
+    "webpack": "1.12.9"
   },
   "tags": [
     "tcomb-form",

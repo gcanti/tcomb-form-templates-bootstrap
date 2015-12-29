@@ -1,4 +1,6 @@
-# Setup
+Default templates used by [tcomb-form](https://github.com/gcanti/tcomb-form), so you are not supposed to do a manual setup.
+
+# Manual setup
 
 ```sh
 npm install tcomb-form
