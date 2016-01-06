@@ -36,7 +36,7 @@
     "eslint-config-airbnb": "1.0.0",
     "eslint-plugin-react": "3.10.0",
     "isparta-loader": "1.0.0",
-    "karma": "0.13.16",
+    "karma": "0.13.9",
     "karma-chrome-launcher": "0.2.2",
     "karma-coverage": "0.5.3",
     "karma-firefox-launcher": "0.1.7",
