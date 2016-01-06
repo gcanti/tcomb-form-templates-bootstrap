@@ -1,5 +1,6 @@
-var webpack = require('webpack') // eslint-disable-line
-var path = require('path') // eslint-disable-line
+/* eslint no-var:0  */
+var webpack = require('webpack')
+var path = require('path')
 
 module.exports = function getConfig(config) {
   config.set({
