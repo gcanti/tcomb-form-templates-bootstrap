@@ -71,14 +71,7 @@ function create(overrides = {}) {
   }
 
   textbox.renderHiddenTextbox = overrides.renderHiddenTextbox || function renderHiddenTextbox(locals) {
-    return {
-      tag: 'input',
-      attrs: {
-        type: 'hidden',
-        value: locals.value,
-        name: locals.name
-      }
-    }
+    return <input type="hidden" value={locals.value} name={locals.attrs.name} />
   }
 
   textbox.renderStatic = overrides.renderStatic || function renderStatic(locals) {
