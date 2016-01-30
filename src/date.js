@@ -97,7 +97,7 @@ function create(overrides = {}) {
       ),
       M: (
         <li key="M">
-          <select disabled={locals.disabled} className="form-control" value={value[2]} onChange={onMonthChange}>
+          <select disabled={locals.disabled} className="form-control" value={value[1]} onChange={onMonthChange}>
             {months}
           </select>
         </li>

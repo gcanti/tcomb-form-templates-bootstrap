@@ -1,6 +1,6 @@
 {
   "name": "tcomb-form-templates-bootstrap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bootstrap templates for tcomb-form",
   "main": "lib/index.js",
   "files": [
