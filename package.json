@@ -25,26 +25,28 @@
   "homepage": "https://github.com/gcanti/tcomb-form-templates-bootstrap",
   "dependencies": {
     "classnames": "^2.1.3",
-    "react": "^0.14.0",
     "tcomb": "^3.0.0"
   },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
+  },
   "devDependencies": {
-    "babel": "5.8.34",
-    "babel-eslint": "4.1.5",
-    "babel-loader": "5.4.0",
+    "babel": "5.8.38",
+    "babel-eslint": "4.1.8",
+    "babel-loader": "5.3.2",
     "eslint": "1.10.3",
     "eslint-config-airbnb": "1.0.0",
     "eslint-plugin-react": "3.10.0",
     "isparta-loader": "1.0.0",
     "karma": "0.13.9",
-    "karma-chrome-launcher": "0.2.2",
+    "karma-chrome-launcher": "0.2.0",
     "karma-coverage": "0.5.3",
     "karma-firefox-launcher": "0.1.7",
     "karma-tap": "1.0.3",
     "karma-webpack": "1.7.0",
     "react-vdom": "^0.6.2",
     "tape": "4.4.0",
-    "webpack": "1.12.9"
+    "webpack": "1.12.8"
   },
   "tags": [
     "tcomb-form",
