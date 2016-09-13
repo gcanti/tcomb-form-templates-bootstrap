@@ -6,7 +6,7 @@ export default function getLabel({label, breakpoints, htmlFor, id}) {
     const className = breakpoints ? breakpoints.getLabelClassName() : {}
     className['control-label'] = true
     return (
-      <label htmlFor={htmlFor} id={id} className={classnames(className)}>{label}</label>
+      <label key="field-label" htmlFor={htmlFor} id={id} className={classnames(className)}>{label}</label>
     )
   }
 }

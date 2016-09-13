@@ -139,7 +139,7 @@ function create(overrides = {}) {
     const className = label ? locals.config.horizontal.getInputClassName() : locals.config.horizontal.getOffsetClassName()
     return [
       label,
-      <div className={classnames(className)}>
+      <div key="field-value" className={classnames(className)}>
         {textbox.renderTextbox(locals)}
         {textbox.renderError(locals)}
         {textbox.renderHelp(locals)}

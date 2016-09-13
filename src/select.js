@@ -98,7 +98,7 @@ function create(overrides = {}) {
     const className = label ? locals.config.horizontal.getInputClassName() : locals.config.horizontal.getOffsetClassName()
     return [
       label,
-      <div className={classnames(className)}>
+      <div key="field-value" className={classnames(className)}>
         {select.renderSelect(locals)}
         {select.renderError(locals)}
         {select.renderHelp(locals)}
