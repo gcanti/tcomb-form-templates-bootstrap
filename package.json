@@ -1,6 +1,6 @@
 {
   "name": "tcomb-form-templates-bootstrap",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Bootstrap templates for tcomb-form",
   "main": "lib/index.js",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "lint": "eslint src test",
-    "test": "npm run lint && karma start",
+    "test": "npm run lint",
     "test:node": "babel-node test",
     "build": "rm -rf lib && mkdir lib && babel --out-dir lib src"
   },
